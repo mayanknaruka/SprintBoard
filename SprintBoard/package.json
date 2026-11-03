@@ -1,0 +1,12 @@
+{
+  "name": "sprintboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SprintBoard — MERN real-time collaborative issue tracker",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "start:server": "npm start --prefix server",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  }
+}
